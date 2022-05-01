@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Authors>Hamed Fathi</Authors>
+        <Company />
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <Version>1.0.0</Version>
+        <LangVersion>latest</LangVersion>
+        <PackageProjectUrl>https://github.com/HamedFathi/SmarterFormat</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/HamedFathi/SmarterFormat</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="SmartFormat.NET" Version="3.0.0" />
+    </ItemGroup>
+
+</Project>
